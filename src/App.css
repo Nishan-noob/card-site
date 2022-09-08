@@ -1,0 +1,79 @@
+.cards-box{
+    display: grid;
+    grid-template-columns:  0.333333333fr 0.333333333fr 0.333333333fr;
+    /* position: relative; */
+    
+    
+}
+.App{
+    /* margin: 0 auto; */
+    padding-top: 3rem;
+    background-image:url(/src/image/qw.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+
+h1{
+    /* position: relative; */
+    text-align: center;
+    font-family: 'ABeeZee';
+    color: black;
+}
+
+@media only screen and (max-width: 940px) {
+    .cards-box{
+        display: grid;
+        grid-template-columns:  0.5fr 0.5fr ;
+        /* position: relative; */
+        
+        
+    }
+    .App{
+        /* margin: 0 auto; */
+        padding-top: 3rem;
+        background-image:url(/src/image/qw.jpg) ;
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        
+    }
+    h1{
+        /* position: relative; */
+        
+        text-align: center;
+        font-family: 'ABeeZee';
+        color: black;
+    }
+    
+  }
+
+  @media only screen and (max-width: 640px) {
+    h1{
+        /* position: relative; */
+        text-align: center;
+        font-family: 'ABeeZee';
+        color: black;
+    }
+    .App{
+        /* margin: 0 auto; */
+        padding-top: 3rem;
+        background-image:url(/src/image/qw.jpg) ;
+        background-size: cover;
+        /* background-repeat: no-repeat; */
+        background-attachment: fixed;
+        background-position: center;
+        
+    }
+    .cards-box{
+        display: grid;
+        grid-template-columns:  1fr;
+        /* position: relative; */
+        
+        
+    }
+    
+  }
